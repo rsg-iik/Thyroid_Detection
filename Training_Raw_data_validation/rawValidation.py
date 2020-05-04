@@ -17,10 +17,6 @@ class Raw_Data_validation:
     """
              This class shall be used for handling all the validation done on the Raw Training Data!!.
 
-             Written By: iNeuron Intelligence
-             Version: 1.0
-             Revisions: None
-
              """
 
     def __init__(self,path):
@@ -136,9 +132,7 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
+                                            
 
                                                     """
 
@@ -166,9 +160,7 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
+                                          
 
                                                     """
 
@@ -195,9 +187,7 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
+                                          
 
                                                     """
         now = datetime.now()
@@ -242,9 +232,7 @@ class Raw_Data_validation:
                     Output: None
                     On Failure: Exception
 
-                     Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
+                    
 
                 """
 
@@ -335,9 +323,7 @@ class Raw_Data_validation:
                                   Output: None
                                   On Failure: Exception
 
-                                   Written By: iNeuron Intelligence
-                                  Version: 1.0
-                                  Revisions: None
+                                 
 
                               """
         try:
