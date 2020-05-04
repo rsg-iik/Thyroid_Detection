@@ -79,9 +79,7 @@ class File_Operation:
                             Output: The Model file
                             On Failure: Raise Exception
 
-                            Written By: iNeuron Intelligence
-                            Version: 1.0
-                            Revisions: None
+                            
                 """
         self.logger_object.log(self.file_object, 'Entered the find_correct_model_file method of the File_Operation class')
         try:
