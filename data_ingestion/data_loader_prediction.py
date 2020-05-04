@@ -21,9 +21,7 @@ class Data_Getter_Pred:
         Output: A pandas DataFrame.
         On Failure: Raise Exception
 
-         Written By: iNeuron Intelligence
-        Version: 1.0
-        Revisions: None
+         
 
         """
         self.logger_object.log(self.file_object,'Entered the get_data method of the Data_Getter class')
