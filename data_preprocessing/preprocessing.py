@@ -53,10 +53,7 @@ class Preprocessor:
                         Output: Returns two separate Dataframes, one containing features and the other containing Labels .
                         On Failure: Raise Exception
 
-                        Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
-
+                        
                 """
         self.logger_object.log(self.file_object, 'Entered the separate_label_feature method of the Preprocessor class')
         try:
@@ -75,9 +72,7 @@ class Preprocessor:
                         Method Name: is_null_present
                         Description: This method drops the unwanted columns as discussed in EDA section.
 
-                        Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
+                        
 
                                 """
         data = data.drop(columnNameList,axis=1)
@@ -109,9 +104,7 @@ class Preprocessor:
                                 Output: Returns a Boolean Value. True if null values are present in the DataFrame, False if they are not present.
                                 On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
+                                
 
                         """
         self.logger_object.log(self.file_object, 'Entered the is_null_present method of the Preprocessor class')
@@ -141,9 +134,7 @@ class Preprocessor:
                                         Output: A Dataframe which has all the categorical values encoded.
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
+                                        
                      """
 
      # We can map the categorical values like below:
@@ -215,9 +206,7 @@ class Preprocessor:
                                                       Output: A Dataframe which is balanced now.
                                                       On Failure: Raise Exception
 
-                                                      Written By: iNeuron Intelligence
-                                                      Version: 1.0
-                                                      Revisions: None
+                                                    
                                    """
 
 
@@ -233,9 +222,7 @@ class Preprocessor:
                                         Output: A Dataframe which has all the missing values imputed.
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
+                                       
                      """
         self.logger_object.log(self.file_object, 'Entered the impute_missing_values method of the Preprocessor class')
         self.data= data
@@ -259,9 +246,7 @@ class Preprocessor:
                                                 Output: List of the columns with standard deviation of zero
                                                 On Failure: Raise Exception
 
-                                                Written By: iNeuron Intelligence
-                                                Version: 1.0
-                                                Revisions: None
+                                                
                              """
         self.logger_object.log(self.file_object, 'Entered the get_columns_with_zero_std_deviation method of the Preprocessor class')
         self.columns=data.columns
