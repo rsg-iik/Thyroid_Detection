@@ -32,10 +32,7 @@ class dBOperation:
                         Output: Connection to the DB
                         On Failure: Raise ConnectionError
 
-                         Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
-
+                        
                         """
         try:
             conn = sqlite3.connect(self.path+DatabaseName+'.db')
