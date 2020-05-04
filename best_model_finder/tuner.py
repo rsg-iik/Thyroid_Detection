@@ -27,10 +27,7 @@ class Model_Finder:
                                 Output: The model with the best parameters
                                 On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
-
+                                
                         """
         self.logger_object.log(self.file_object, 'Entered the get_best_params_for_random_forest method of the Model_Finder class')
         try:
@@ -125,9 +122,7 @@ class Model_Finder:
                                                 Output: The best model name and the model object
                                                 On Failure: Raise Exception
 
-                                                Written By: iNeuron Intelligence
-                                                Version: 1.0
-                                                Revisions: None
+                                                
 
                                         """
         self.logger_object.log(self.file_object,
